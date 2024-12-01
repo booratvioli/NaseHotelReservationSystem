@@ -1,0 +1,49 @@
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+    /* Add more styles for the active slide if needed */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.back-button {
+    /* Add styles for the Back to Customer Profile button */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #86654B;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.form-content {
+    min-height: 500px; /* Adjust this value as needed */
+}
+
+.nav-link {
+    color: #86654B;
+}
+
+.nav-link.active {
+    color: #86654B !important;
+    background-color: #86654B;
+}
+
+.card-header .nav-pills .nav-link.active {
+    color: #86654B !important;
+    background-color: #86654B !important; /* Replace #yourColor with the color you want */
+}
+

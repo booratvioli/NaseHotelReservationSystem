@@ -71,13 +71,13 @@ $mail = new PHPMailer(true);
                     $mail->isSMTP();
                     $mail->Host       = 'smtp.gmail.com';
                     $mail->SMTPAuth   = true;
-                    $mail->Username   = 'nasehotel@gmail.com';  // Your Gmail email address
-                    $mail->Password   = 'yotb ghwi orqs npzx';  // The app password you generated
+                    $mail->Username   = 'itstest14342@gmail.com';  // Your Gmail email address
+                    $mail->Password   = 'app password';  // The app password you generated
                     $mail->SMTPSecure = 'tls';
                     $mail->Port       = 587;
 
                     // Recipients
-                    $mail->setFrom('nasehotel@gmail.com', 'Nase Hotel');
+                    $mail->setFrom('itstest14342@gmail.com', 'Nase Hotel');
                     $mail->addAddress($_POST['emailaddress'], $_POST['emailaddress']);
 
                 // ...
